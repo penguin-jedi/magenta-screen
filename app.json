@@ -1,11 +1,11 @@
 {
   "expo": {
+    "owner": "penguin-jedi",
     "name": "magenta-screen",
     "slug": "magenta-screen",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ff00ff"
-      }
+      },
+      "package": "com.penguinjedi.magentascreen"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8362189a-8cab-4122-a28a-b2fbdefb1a4a"
+      }
     }
   }
 }
